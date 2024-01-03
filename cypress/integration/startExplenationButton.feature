@@ -4,8 +4,8 @@ Feature: Start-Explenation-Button
 
     Scenario: Open a page and two explenation-Buttons are present
         Given I'm on the maximum page
-        Then I see a start-explenation-button above the template
-        And I see a start-explenation-button below the template
+        Then I see a start-explenation-button "above" the template
+        And I see a start-explenation-button "below" the template
 
     Scenario: When I click on the Button the page scrolls to the template and the explenation is started
         Given I'm on the maximum page
